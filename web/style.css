@@ -1,0 +1,118 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #001f3f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+#home-banner {
+    background: linear-gradient(to right, navy, blue);
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+
+
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+h2 {
+    color: #001f3f;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #001f3f;
+    color: white;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 12px;
+    text-align: center;
+}
+
+
+form {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, select {
+    padding: 10px;
+    margin: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+
+button {
+    background-color: gold;
+    color: navy;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+
+article {
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+
+footer {
+    background-color: #001f3f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+html {
+    scroll-behavior: smooth;
+}
